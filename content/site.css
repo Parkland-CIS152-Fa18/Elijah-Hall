@@ -1,0 +1,77 @@
+body {
+    background-color: #422b25;
+    color: #f5b142;
+    display: block;
+}
+#tagline{
+    font-family: Harrington, Arial;
+    padding: 2% 20%;
+    text-align: center;
+}
+section{
+    display: flex;
+    padding: 2% 5%;
+    flex-wrap: block;
+    color: #d3793a;
+    align-self: right;
+    justify-content: space-between;
+    max-height: 450px;
+}
+section img{
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #f5b142;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+#description{
+    width: 35%;
+    padding: 0% 2% 5% 2%;
+    justify-self: center;
+    font-size: 1.5em;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: block;
+    max-width: 70%;
+    justify-content: space-around;
+    background-color: transparent;
+    padding-top: 2%
+}
+.navbar-container div{
+    padding: 2%;
+}
+.navbar-container img:hover{
+    box-shadow:
+                1px 1px transparent,
+                2px 2px transparent,
+                3px 3px transparent;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+#donutIcon img{
+    max-width: 100%;
+    max-height: 90px;
+    height: auto;
+}
+#aboutUs{
+    max-height: 30px;
+    max-width: 100%;
+    height: auto;
+}
+#menuIcon{
+    max-height: 30px;
+    max-width: 100%; 
+    height: auto;
+}
+#contactIcon{
+    max-height: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+
